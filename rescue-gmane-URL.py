@@ -57,7 +57,7 @@ def main():
     parser = get_parser()
     args = parser.parse_args()
 
-    server = nntplib.NNTP('news.gmane.org')
+    server = nntplib.NNTP('news.gmane.io')
 
     # FIXME: extract to separate file
     if args.test:
